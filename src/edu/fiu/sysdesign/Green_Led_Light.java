@@ -8,12 +8,13 @@ package edu.fiu.sysdesign;
  *
  */
 public class Green_Led_Light implements SelfCheckCapable {
-	String optics;
-	String chips;
-	String heat_sink;
-	String circuit_board;
+	String optics; /** optics on green light **/
+	String chips;  /** chips on green light **/
+	String heat_sink;  /** heat sink on green light **/
+	String circuit_board;  /** circuit board on green light **/
 
 	void flash_green_light() {
+		 /** green light can flash**/
 	}
 	
 	

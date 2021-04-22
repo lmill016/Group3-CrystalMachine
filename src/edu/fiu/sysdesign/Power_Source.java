@@ -8,19 +8,15 @@ package edu.fiu.sysdesign;
  *
  */
 public class Power_Source {
-	String cable_plug;
-	String backup_generator;
-	double watts;
-	boolean power_button;
+	String cable_plug; /** power source has cable plug **/
+	String backup_generator; /** power source have backup generator **/
+	double watts; /** power source have watts **/
+	boolean power_button; /** power source has a power button **/
 	
 	void  provides_power() {
+		/** power source provides power **/
 
 	}
 	
-	public String getPostion() {
-		// TODO Auto-generated method stub
-		return null;
-	
-	}
 
 }

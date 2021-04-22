@@ -8,14 +8,16 @@ package edu.fiu.sysdesign;
  *
  */
 public class Employee implements SelfCheckCapable {
-	String gender;
-	String name;
-	String position;
+	String gender; /** Employees have genders **/
+	String name; /** Employees have names **/
+	String position; /** Employees have positions **/
 	
 	public String works() {
+		/** Employees have work indicators **/
 		return null;
 	}
 	public String pass_through_door() {
+		/** Employees can pass through doors**/
 		return null;
 	}
 	

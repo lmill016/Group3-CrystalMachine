@@ -8,20 +8,23 @@ package edu.fiu.sysdesign;
  *
  */
 public class Biometric_Scanner implements SelfCheckCapable {
-	String iris_technology;
-	String laser;
-	String preexisting_biometrics;
-	String lamp;
-	String CCDarray;
+	String iris_technology;  /** biometric scanners have eye iris scanning **/
+	String laser; /** biometric scanners have lasers **/
+	String preexisting_biometrics; /** biometric scanners have scan log **/
+	String lamp; /** biometric scanners have lamp  **/
+	String CCDarray; 
 	
 
 	void scans_iris() {
+		/** biometric scanners can scan an iris  **/
 	}
 	
 	public String sends_pass() {
+		/** biometric scanners can be sucessful upon scanning  **/
 		return null;
 	}
 	public String sends_fais() {
+		/** biometric scanners can be unsusseful upon scanning  **/
 		return null;
 	}
 	

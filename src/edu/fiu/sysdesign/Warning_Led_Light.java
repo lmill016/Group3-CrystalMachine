@@ -8,13 +8,13 @@ package edu.fiu.sysdesign;
  *
  */
 public class Warning_Led_Light implements SelfCheckCapable {
-	String id;
-	Boolean backSensor;
-	boolean sideSensor;
-	boolean topSensor;
-	boolean bottomSesnor;
+	String optics; /** warning led lights have optics **/
+	String chips; /** warning led lights have chips **/
+	String heat_sink; /** warning led lights have heat sinks **/
+	String circuit_board; /** warning led lights have circuit board **/
 
-	void calibrate() {
+	void flash_light() {
+		/** warning led lights can flash **/
 	}
 	
 	public String getData() {

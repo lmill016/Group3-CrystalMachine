@@ -8,19 +8,21 @@ package edu.fiu.sysdesign;
  *
  */
 public class System_Control_Computer implements SelfCheckCapable {
-	String system_Manager;
-	String databse;
-	String computer;
-	String processor;
-	String ram;
-	String memory;
+	String system_Manager; /** System Control computer has system managers **/
+	String databse; /** System control contains database **/
+	String computer; /** System control uses computer **/
+	String processor;  /** System control uses processor **/
+	String ram; /** System control uses ram **/
+	String memory; /** System control uses memory **/
 	
 	
 	void receive_Machine_Reports() {
+		/** System control receives machine reports **/
 		
 	}
 		
 		void review_System_Checks() {
+			/** System control reviews system checks **/
 			
 	}
 	

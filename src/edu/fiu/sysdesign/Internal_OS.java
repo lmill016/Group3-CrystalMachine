@@ -8,14 +8,15 @@ package edu.fiu.sysdesign;
  *
  */
 public class Internal_OS {
-	String Main_Operating_System;
-	String processor;
-	double networks_connected;
+	String Main_Operating_System;  /** main OS internally **/
+	String processor; /** main processor **/
+	double networks_connected; /** networks connectedy **/
 	
 	void execute_commands_received() {
 	}
 	
 	void send_door_commands() {
+		/** sends commands to door **/
 	}
 	
 	public String system_checks() {

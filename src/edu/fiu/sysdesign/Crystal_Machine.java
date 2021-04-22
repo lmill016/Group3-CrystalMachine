@@ -8,6 +8,7 @@ package edu.fiu.sysdesign;
  *
  */
 public class Crystal_Machine {
+	/** main class for the Crystal Machine  **/
 
 	/**
 	 * @param args

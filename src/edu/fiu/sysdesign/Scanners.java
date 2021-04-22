@@ -8,48 +8,25 @@ package edu.fiu.sysdesign;
  *
  */
 public class Scanners implements SelfCheckCapable {
-	String arms;
-	String wheels;
+	String technology; /** Scanners have technologies **/
+	String laser; /** Scanners have Lasers **/
+	String preexisting_data; /** Scanners have prexisting data **/
+	String lamp; /** Scanners have lamps **/
+	String CCDdevice; //** CHarged coupled device array **// 
+	
 	
 	/**
 	 * This is the Rover method, initiates a new rover
 	 * */
 	 
 
-	void powerON() {
+	void scans_objects() {
+		/** Scanners scans objects **/
 		
 	}
-	void powerOFF() {
-		
-	}
-	void moveForward() {
-		
-	}
-	void moveBackward() {
-		
-	}
-	void turnLeft() {
-		
-	}	
-	void turnRight() {
-		
-	}
-	void spinClockwise() {
-		
-	}
-	void spinCounterClockwise() {
-		
-	}
-	
-	public String getPosition() {
-		return null;
-	}
-	public String getPicture() {
-		return null;
-	}
-		
-	 
-	@Override
+	void sends_test_results() {
+		/** Scanners send test results **/
+	}	@Override
 	public String getComponentName() {
 		// TODO Auto-generated method stub
 		return null;

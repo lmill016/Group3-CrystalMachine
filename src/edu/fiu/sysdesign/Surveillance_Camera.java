@@ -8,13 +8,14 @@ package edu.fiu.sysdesign;
  *
  */
 public class Surveillance_Camera implements SelfCheckCapable {
-	String lens;
-	String Focus;
-	String microphone;
-	String charged_couple_device;
-	String flash;
+	String lens; /** surveillance camera has lens **/
+	String Focus; /**  camera has focus **/
+	String microphone; /** surveillance camera has microphone **/
+	String charged_couple_device; 
+	String flash; /** surveillance camera has flash **/
 	
 	void  record_video() {
+		/** surveillance camera can record videos **/
 
 	}
 	@Override

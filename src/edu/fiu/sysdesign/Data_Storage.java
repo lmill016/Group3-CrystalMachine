@@ -8,19 +8,22 @@ package edu.fiu.sysdesign;
  *
  */
 public class Data_Storage implements SelfCheckCapable {
-	String capacity;
+	String capacity; /** data storage have a capacity **/
 	String preexisting_data;
-	String collected_data;
+	String collected_data; /** data storage have a can collect data **/
 	
 void stores_Data() {
+	/** data storage stores data **/
 		
 	}
 
 void receives_Data() {
+	/** data storage receives data to store **/
 	
 }
 
 void returns_Data() {
+	/** data storage can return data **/
 	
 }
 
